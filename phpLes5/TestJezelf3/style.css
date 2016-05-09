@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+}
+
+img{
+    width: 200px;
+}
+
+#inputfieldText
+    {
+        display: none;
+    }

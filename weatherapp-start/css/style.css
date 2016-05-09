@@ -1,0 +1,92 @@
+body{
+            background-color: #fff;
+            color: red;
+            font-family: helvetica;
+        }
+        
+        .background{
+            background-image: url(../images/START_LAMBO.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+        
+        }
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: rgba(31,31,31,0.5);
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#WEER, nav{
+    display: none;
+}
+
+        
+        #vraag{
+            font-family: monospace;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 60px;
+        }
+        
+        .autokeuze{
+            font-style: italic;
+            font-size: 1.3em;
+            padding-top: 10px;
+            text-align: center;
+        }
+        
+        #BMW{
+            color:#008AC9;
+        }
+        
+        #MERCEDES{
+            color: #F00;
+        }
+        
+        #MCLAREN{
+            color: #03340b;
+        }
+        
+        .autokeuze a{
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        
+        #VANDAAG{
+            font-size: 2em;
+            text-shadow: 2px 2px #000;
+        }
+        
+        .weather0, .weather1, .weather2, .weather3, .weather4, .weather5, .weather5, .weather6, .weather7, .weather8{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            text-shadow: 2px 2px #000;
+        }
+
+        .weather-summary{
+            text-shadow: 2px 2px #000;
+        }
+        
+        #weather-icon{
+            margin-top: 60px;
+        }
+        
+        
+
